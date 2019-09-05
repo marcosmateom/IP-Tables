@@ -27,13 +27,14 @@
     echo $cuenta;
     echo '<tr>';
     for ($i=2; $i > $cuenta; $i++) { 
-        $regla = explode( " ", $lines[i] );
-        echo $regla;
-        foreach ($regla as $reg ) {
+        echo $lines[i];
+        //$regla = explode( " ", $lines[i] );
+        //echo $regla;
+        /*foreach ($regla as $reg ) {
             echo '<td>';
             echo $reg;
             echo '</td>';
-        }
+        }*/
     }
     
     echo '</tr>';
