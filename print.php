@@ -12,5 +12,14 @@
     echo $lines[0];
     //echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
-	echo '<br><br>';
+    echo '<br><br>';
+    
+    echo '<table>';
+    $heads = explode( " ", $lines[0] );
+    foreach ($heads as $head) {
+        echo '<tr>';
+        echo $head;
+        echo '</tr>';
+    }
+    echo '</table>';
 ?>
