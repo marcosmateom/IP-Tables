@@ -66,7 +66,7 @@
             
             <div class="form-group">
             <label for="sel6">PARAMETROS2</label>
-            <select name="params" class="form-control" id="sel6">
+            <select name="params2" class="form-control" id="sel6">
                 <option value=""></option>
                 <option value="-d">DESTINATION HOSTNAME -d</option>
                 <option value="-o">OUTGOING NETWORK INTERFACE -o</option>
