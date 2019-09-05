@@ -5,6 +5,7 @@
 </form>
 
 <?php
+echo `whoami`;
 $comand = $_GET['comando'];
 //$output = shell_exec("sudo iptables -L");
 $output = shell_exec('echo "" | sudo -S echo "foo" 2> /dev/null');
