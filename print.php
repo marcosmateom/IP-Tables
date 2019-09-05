@@ -14,6 +14,7 @@ echo '<h3>Chain OUTPUT</h3>';
         $num = substr_count($line, ' ');
             if ($num <5) {
                 echo $line;
+                echo '<br>';
             }
         
 
