@@ -7,7 +7,7 @@ $params = $_POST["params"];
 $porttype = $_POST["porttype"];
 $ports = $_POST["port"];
 $protocol = $_POST["protocols"];
-$params2 = $_POST["params"];
+$params2 = $_POST["params2"];
 
 
 echo $chain."</br>";
