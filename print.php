@@ -24,6 +24,7 @@
     }
     echo '</tr>';
     $cuenta = count($lines);
+    echo $cuenta;
     echo '<tr>';
     for ($i=2; $i < $cuenta; $i++) { 
         $regla = explode( " ", $lines[i] );
