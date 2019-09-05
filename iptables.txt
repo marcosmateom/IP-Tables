@@ -1,0 +1,12 @@
+
+Puntos importantes:
+-Pueden haber definidas muchas tablas
+-Cada tabla puede contener multiples cadenas
+
+Chain =  rules
+Target = una cadena para hacer match al packet
+
+Special values:
+-ACCEPT
+-DROP
+-RETURN
