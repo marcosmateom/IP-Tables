@@ -15,16 +15,6 @@ echo '<h3>Chain OUTPUT</h3>';
             if ($num <5) {
                 echo $line;
             }
-            if ($num >= 5) {
-                $rules = explode( " ", $line );
-                echo '<tr>';
-                foreach ($rules as $rule) {
-                    echo '<td>';
-                    echo $rule;
-                    echo '</td>';
-                }
-                echo '</tr>';
-            }
         
 
     }
