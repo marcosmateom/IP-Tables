@@ -16,6 +16,9 @@
         
         <button type='button' class='btn btn-primary' href='print.php'>link a pruebas de impresion</button>
         <h2>Input</h2>
+        <button type='button' href='#' class='btn btn-primary'>Nueva regla</button>
+        <a type='button' class='btn btn-primary' href='print.php'>link a pruebas de impresion</a>
+        <h2>Input </h2>
         <pre>
         <?php
             adminRules::getRules(1);
