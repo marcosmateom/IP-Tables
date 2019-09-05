@@ -15,7 +15,7 @@ echo '<h3>Chain OUTPUT</h3>';
         if ($spaces < 5) {
             echo $line;
             echo '<br>';
-        } elseif ($spaces < 5) {
+        } elseif ($spaces >= 5) {
             echo '12'. $line;
             echo '<br><br>';
         }
