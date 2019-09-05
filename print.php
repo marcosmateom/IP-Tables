@@ -15,18 +15,6 @@ echo '<h3>Chain OUTPUT</h3>';
         if ($spaces < 5) {
             echo $line;
         }
-        if ($spaces >= 5) {
-            $text = explode( " ", $line );
-            echo '<tr>';
-            foreach ($text as $tx) {
-
-                echo '<td>';
-                echo $tx;
-                echo '</td>';
-                
-            }
-            echo '</tr>';
-        }
     }
     echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
