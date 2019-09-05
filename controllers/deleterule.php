@@ -16,5 +16,5 @@
     echo $output;
 
 ?>
-
+<br>
 <a href='/'>Home</a>
