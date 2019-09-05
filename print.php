@@ -12,6 +12,8 @@ echo '<h3>Chain OUTPUT</h3>';
     $lines = explode( "\n", $var2 );
     foreach ($lines as $line) {
         echo $line;
+        echo '<br>';
+
     }
     echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
