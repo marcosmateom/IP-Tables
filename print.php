@@ -8,7 +8,8 @@
 
 echo '<h3>Chain OUTPUT</h3>';
     $comand = $_GET['comando'];
-	$var2 = shell_exec('sudo ' . $comand);
-	echo "<pre>$var2</pre>";
+    $var2 = shell_exec('sudo iptables -L');
+    echo '<p>'. $var2.'</p>';
+	//echo "<pre>$var2</pre>";
 	echo '<br><br>';
 ?>
