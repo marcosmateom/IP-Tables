@@ -1,3 +1,6 @@
+<?php
+  include "controllers/rules.php";          
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +12,13 @@
     <div class="container">
         <h1>Menu principal</h1>
         <hr>
-        <a href='#' class='button'>Nueva regla</a>
+        <button type='button' href='#' class='btn btn-primary'>Nueva regla</button>
+        <button type='button' class='btn btn-primary' href='print.php'>link a pruebas de impresion</button>
+        <h2>Input </h2>
+        
         <?php
-            echo "<br><a class='button' href='print.php'>link a pruebas de impresion</a>";
+            echo 'hola';
+            adminRules::getRules(1);
         ?>
     </div>
     
