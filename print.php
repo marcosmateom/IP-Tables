@@ -23,6 +23,7 @@ echo '<h3>Chain OUTPUT</h3>';
                     echo $rule;
                     echo ' ';
                 }
+                echo '<br>';
             }
         
 
