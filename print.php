@@ -20,11 +20,13 @@ echo '<h3>Chain OUTPUT</h3>';
             echo '<tr>';
             foreach ($rules as $rule) {
                 echo '<td>';
-                echo '$rule';
+                echo $rule;
                 echo '</td>';
             }
+            echo '</tr>';
         }
     }
+    echo '<br>';
     echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
 	echo '<br><br>';
