@@ -25,4 +25,7 @@ echo $command;
 /*
         header("Location: http://ec2-52-53-235-198.us-west-1.compute.amazonaws.com/");
         die();*/
+
 ?>
+<br>
+<a href='/'>Home</a>
