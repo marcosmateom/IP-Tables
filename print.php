@@ -19,11 +19,13 @@ echo '<h3>Chain OUTPUT</h3>';
             if ($num >= 5) {
                 $line = trim($line);
                 $rules = explode( " ", $line );
+                echo '<tr>';
                 foreach ($rules as $rule) {
+                    echo '<tb>';
                     echo $rule;
-                    echo ' ';
+                    echo '</tb>';
                 }
-                echo '<br>';
+                echo '</tr>';
             }
         
 
