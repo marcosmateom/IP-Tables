@@ -25,6 +25,7 @@ echo '<h3>Chain OUTPUT</h3>';
                 echo '</td>';
                 
             }
+            echo '</tr>';
         }
     }
     echo '<p>'. $var2.'</p>';
