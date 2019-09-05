@@ -10,6 +10,7 @@ echo '<h3>Chain OUTPUT</h3>';
     $comand = $_GET['comando'];
     $var2 = shell_exec('sudo iptables -L');
     $lines = explode( "\n", $var2 );
+    echo '<table>';
     foreach ($lines as $line) {
         $num = substr_count($line, ' ');
             if ($num <5) {
@@ -30,6 +31,7 @@ echo '<h3>Chain OUTPUT</h3>';
         
 
     }
+    echo '</table>';
     //echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
 	echo '<br><br>';
