@@ -7,10 +7,21 @@
 <?php
 
     $comand = $_GET['comando'];
-    $var2 = shell_exec('sudo iptables -L');
-    $lines = explode( "\n", $var2 );
+    $reglas = shell_exec('sudo iptables -L');
+    $lines = explode( "\n", $reglas );
     echo $lines[0];
     //echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
-	echo '<br><br>';
+    echo '<br><br>';
+    
+    echo '<table>';
+    $heads = explode( " ", $lines[1] );
+    echo '<tr>';
+    foreach ($heads as $head) {
+        echo '<th>';
+        echo $head;
+        echo '</th>';
+    }
+    echo '</tr>';
+    echo '</table>';
 ?>
