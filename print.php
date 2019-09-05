@@ -26,8 +26,10 @@
     $cuenta = count($lines);
     //echo $cuenta
     //echo $lines[6];
-    for ($i=2; $i < $cuenta ; $i++) { 
-        $rule = explode( " ", $lines[$i] );
+    for ($i=2; $i < $cuenta ; $i++) {
+        $linn =  trim($lines[$i]);
+
+        $rule = explode( " ", $linn );
         echo '<tr>';
         foreach ($rule as $rul) {
             echo '<td>';
