@@ -24,10 +24,10 @@
     }
     echo '</tr>';
     $cuenta = count($lines);
-    echo $cuenta;
+    //echo $cuenta;
     echo '<tr>';
     //echo $lines[6];
-    for ($i=0; $i < $cuenta ; $i++) { 
+    for ($i=2; $i < $cuenta ; $i++) { 
         echo $i;
     }
     
