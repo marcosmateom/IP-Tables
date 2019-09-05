@@ -11,8 +11,17 @@ echo '<h3>Chain OUTPUT</h3>';
     $var2 = shell_exec('sudo iptables -L');
     $lines = explode( "\n", $var2 );
     foreach ($lines as $line) {
-        echo $line;
-        echo '<br>';
+        if ($line < 5) {
+            echo $line
+        }
+        if ($line >= 5) {
+            $rules = explode( " ", $line );
+            foreach ($rules as $rule) {
+                echo $rule;
+                echo '<br>';
+            }
+        }
+
 
     }
     echo '<p>'. $var2.'</p>';
