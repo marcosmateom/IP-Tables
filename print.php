@@ -14,6 +14,10 @@ echo '<h3>Chain OUTPUT</h3>';
         $spaces = substr_count($line, ' ');
         if ($spaces < 5) {
             echo $line;
+            echo '<br>';
+        } elseif ($spaces < 5) {
+            echo '12'. $line;
+            echo '<br><br>';
         }
     }
     echo '<p>'. $var2.'</p>';
