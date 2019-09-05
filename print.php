@@ -22,7 +22,7 @@ echo '<h3>Chain OUTPUT</h3>';
                     echo '<br>';
                 }
             }
-        }
+        
 
     }
     echo '<p>'. $var2.'</p>';
