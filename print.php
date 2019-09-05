@@ -26,16 +26,9 @@
     $cuenta = count($lines);
     echo $cuenta;
     echo '<tr>';
-    echo $lines[6];
-    for ($i=2; $i > $cuenta; $i++) { 
-        echo $lines[i];
-        //$regla = explode( " ", $lines[i] );
-        //echo $regla;
-        /*foreach ($regla as $reg ) {
-            echo '<td>';
-            echo $reg;
-            echo '</td>';
-        }*/
+    //echo $lines[6];
+    for ($i=0; $i > $cuenta ; $i++) { 
+        echo $i;
     }
     
     echo '</tr>';
