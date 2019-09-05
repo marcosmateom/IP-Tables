@@ -16,8 +16,13 @@ echo '<h3>Chain OUTPUT</h3>';
             echo $line;
             echo '<br>';
         } elseif ($spaces >= 5) {
-            echo '12'. $line;
-            echo '<br><br>';
+            $rules = explode( " ", $line );
+            echo '<tr>';
+            foreach ($rules as $rule) {
+                echo '<td>';
+                echo '$rule';
+                echo '</td>';
+            }
         }
     }
     echo '<p>'. $var2.'</p>';
