@@ -15,7 +15,7 @@ echo '<h3>Chain OUTPUT</h3>';
             echo $line;
         }
         if ($line >= 5) {
-            $rules = explode( " ", $line );
+            $rules = explode( "\s", $line );
             foreach ($rules as $rule) {
                 echo $rule;
                 echo '<br>';
