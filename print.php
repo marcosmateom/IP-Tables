@@ -24,21 +24,20 @@
     }
     echo '</tr>';
     $cuenta = count($lines);
-    //echo $cuenta;
-    echo '<tr>';
+    //echo $cuenta
     //echo $lines[6];
     for ($i=2; $i < $cuenta ; $i++) { 
         $rule = explode( " ", $lines[$i] );
+        echo '<tr>';
         foreach ($rule as $rul) {
             echo '<td>';
             echo $rul;
             echo '</td>'; 
         }
+        echo '</tr>';
         //echo $i;
         //echo $lines[$i];
         //echo '<br>';
-    }
-    
-    echo '</tr>';
+    }    
     echo '</table>';
 ?>
