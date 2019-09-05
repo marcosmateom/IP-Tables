@@ -28,7 +28,9 @@
     echo '<tr>';
     //echo $lines[6];
     for ($i=2; $i < $cuenta ; $i++) { 
+        echo $i;
         echo $lines[i];
+        echo '<br>';
     }
     
     echo '</tr>';
