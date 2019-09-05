@@ -44,9 +44,10 @@
                 <option value="-s">FUENTE PARA PAQUETE -s</option>    
             </select>
             </div>
+            
 
             <div class="form-group">
-            <label for="sel3">PROTOCOLOS</label>
+            <label for="sel4">PROTOCOLOS</label>
             <select name="protocols" class="form-control" id="sel4">
                 <option value=""></option>
                 <option value="tcp">TCP</option>
@@ -55,7 +56,7 @@
             </div>
 
             <div class="form-group">
-            <label for="sel3">TIPO DE PUERTO</label>
+            <label for="sel5">TIPO DE PUERTO</label>
             <select name="porttype" class="form-control" id="sel5">
                 <option value=""></option>
                 <option value="--dport">DPORT</option>
@@ -63,6 +64,16 @@
             </select>
             </div>
             
+            <div class="form-group">
+            <label for="sel6">PARAMETROS2</label>
+            <select name="params" class="form-control" id="sel6">
+                <option value=""></option>
+                <option value="-d">DESTINATION HOSTNAME -d</option>
+                <option value="-o">OUTGOING NETWORK INTERFACE -o</option>
+                  
+            </select>
+            </div>
+
             <div class="form-group">
                 <label for="ipip">IP</label>
                 <input type="text" name="ip" class="form-control" id="ipip" placeholder="IP">
