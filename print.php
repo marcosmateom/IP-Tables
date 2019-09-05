@@ -17,9 +17,9 @@
     echo '<table>';
     $heads = explode( " ", $lines[1] );
     foreach ($heads as $head) {
-        echo '<tr>';
+        echo '<br>';
         echo $head;
-        echo '</tr>';
+        echo '<br>';
     }
     echo '</table>';
 ?>
