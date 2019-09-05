@@ -15,11 +15,11 @@
         <button type='button' href='#' class='btn btn-primary'>Nueva regla</button>
         <button type='button' class='btn btn-primary' href='print.php'>link a pruebas de impresion</button>
         <h2>Input </h2>
-        
+        <pre>
         <?php
-            echo 'hola';
             adminRules::getRules(1);
         ?>
+        </pre>
     </div>
     
 </body>
