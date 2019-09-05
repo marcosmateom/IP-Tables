@@ -28,9 +28,15 @@
     echo '<tr>';
     //echo $lines[6];
     for ($i=2; $i < $cuenta ; $i++) { 
-        echo $i;
-        echo $lines[$i];
-        echo '<br>';
+        $rule = explode( " ", $lines[$i] );
+        foreach ($rule as $rul) {
+            echo '<td>';
+            echo $rul;
+            echo '</td>'; 
+        }
+        //echo $i;
+        //echo $lines[$i];
+        //echo '<br>';
     }
     
     echo '</tr>';
