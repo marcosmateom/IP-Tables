@@ -20,7 +20,7 @@ echo '<h3>Chain OUTPUT</h3>';
                 $line = trim($line);
                 $rules = explode( " ", $line );
                 foreach ($rules as $rule) {
-                    echo $line;
+                    echo $rule;
                     echo '<br>';
                 }
             }
