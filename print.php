@@ -9,8 +9,10 @@
 echo '<h3>Chain OUTPUT</h3>';
     $comand = $_GET['comando'];
     $var2 = shell_exec('sudo iptables -L');
-    $num = substr_count( $var2, "\n" );
-    echo $num;
+    $lines = explode( "\n", $var2 );
+    foreach ($lines as $line) {
+        echo $line;
+    }
     echo '<p>'. $var2.'</p>';
 	//echo "<pre>$var2</pre>";
 	echo '<br><br>';
