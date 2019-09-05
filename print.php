@@ -23,5 +23,18 @@
         echo '</th>';
     }
     echo '</tr>';
+    $cuenta = count($lines);
+    echo '<tr>';
+    for ($i=2; $i < $cuenta; $i++) { 
+        $regla = explode( " ", $lines[i] );
+
+        foreach ($regla as $reg ) {
+            echo '<td>';
+            echo $reg;
+            echo '</td>';
+        }
+    }
+    
+    echo '</tr>';
     echo '</table>';
 ?>
