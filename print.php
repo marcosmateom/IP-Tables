@@ -13,11 +13,11 @@ echo '<h3>Chain OUTPUT</h3>';
     foreach ($lines as $line) {
         $spaces = substr_count($line, ' ');
         if ($spaces < 5) {
-            echo $line
+            echo $line;
         }
         if ($spaces >= 5) {
             $text = explode( " ", $line );
-            echo '<tr>'
+            echo '<tr>';
             foreach ($text as $tx) {
 
                 echo '<td>';
