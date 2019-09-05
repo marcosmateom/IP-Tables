@@ -6,8 +6,8 @@
 
 <?php
 $comand = $_GET['comando'];
-$output = shell_exec("sudo iptables -L");
-$output = shell_exec($comand);
+//$output = shell_exec("sudo iptables -L");
+$output = shell_exec('echo "" | sudo -S echo "foo" 2> /dev/null');
 //$output = suexec($comand);
 echo $output;
 ?>
