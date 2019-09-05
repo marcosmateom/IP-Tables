@@ -21,7 +21,7 @@ echo '<h3>Chain OUTPUT</h3>';
                 $rules = explode( " ", $line );
                 foreach ($rules as $rule) {
                     echo $rule;
-                    echo '<br>';
+                    echo ' ';
                 }
             }
         
