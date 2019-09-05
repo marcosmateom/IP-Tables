@@ -14,7 +14,7 @@
 	//echo "<pre>$var2</pre>";
     echo '<br><br>';
     
-    echo '<table style="width:100%">';
+    echo '<table>';
     $heads = explode( " ", $lines[1] );
     echo '<tr>';
     foreach ($heads as $head) {
