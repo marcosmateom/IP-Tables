@@ -12,7 +12,7 @@ echo '<h3>Chain OUTPUT</h3>';
     $lines = explode( "\n", $var2 );
     foreach ($lines as $line) {
         if ($line < 5) {
-            echo $line
+            echo $line;
         }
         if ($line >= 5) {
             $rules = explode( " ", $line );
