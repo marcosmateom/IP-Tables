@@ -19,8 +19,8 @@
             <div class="form-group">
                 <label for="rulechain">RULE</label>
                 <input type="text" name="rulechain" class="form-control" id="rulechain" value="<?php 
-                                            $rulerule = $_POST["rule"];
-                                            echo $rulechain;
+                                            $rulerule = $_GET["rule"];
+                                            echo $rulerule;
                                             ?>">
                 
             </div>
