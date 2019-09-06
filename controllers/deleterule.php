@@ -1,15 +1,11 @@
 <?php
     $chain = $_POST["chain"];
-    $target = $_POST["target"];
-    $ip = $_POST["ip"];
-    $params = $_POST["params"];
+    $linenum = $_POST["linenum"];
     
     echo $chain."</br>";
-    echo $target."</br>";
-    echo $ip."</br>";
-    echo $params."</br>";
+    echo $linenum."</br>";
     
-    $command = 'sudo iptables -D '.$chain." ".$params." ".$ip." -j ".$target;
+    $command = 'sudo iptables -D '.$chain." ".$linenum;
     echo $command;
     //$command = $command." -v -n";
     $output = shell_exec($command);
