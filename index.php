@@ -13,21 +13,25 @@
         <h1>Menu principal</h1>
         <hr>
         <a class="btn btn-primary" href="newrule.php" role="button">Nueva Regla</a>
+        <a class="btn btn-primary" href="deleterute.php" role="button">Reemplazar Regla</a>
         <a class="btn btn-primary" href="deleterute.php" role="button">Eliminar Regla</a>
         <a class='btn btn-primary' href='print.php'>link a pruebas de impresion</a>
         <h2>Input </h2>
+        <a class="btn btn-primary" href="editerule.php?rule=INPUT" role="button">Editar Regla</a>
         <pre>
         <?php
             adminRules::getRules(1);
         ?>
         </pre>
         <h2>Output</h2>
+        <a class="btn btn-primary" href="editerule.php?rule=OUTPUT" role="button">Editar Regla</a>
         <pre>
         <?php
             adminRules::getRules(2);
         ?>
         </pre>
         <h2>Forward</h2>
+        <a class="btn btn-primary" href="editerule.php?rule=FORWARD" role="button">Editar Regla</a>
         <pre>
         <?php
             adminRules::getRules(3);
