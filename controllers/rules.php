@@ -26,7 +26,7 @@ final class adminRules
                 $command = $command;
                 break;
         }
-        $command = $command." -v -n";
+        $command = $command." -v -n --line-numbers";
         $output = shell_exec($command);
         echo $output;
     }
