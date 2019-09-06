@@ -12,7 +12,13 @@
     <div class="container">
         <h1>Eliminar regla</h1>
         <hr>
-
+        <h2>Todas las reglas </h2>
+        <pre>
+        <?php
+            adminRules::getRules(0);
+        ?>
+        </pre>
+        <hr>
         
         <form action="controllers/deleterule.php" method="POST">
             <div class="form-group">
