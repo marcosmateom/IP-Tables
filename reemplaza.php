@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Nueva regla</h1>
+        <h1>Reemplazar regla</h1>
         <hr>
 
         
@@ -19,7 +19,7 @@
             <div class="form-group">
                 <label for="rulechain">RULE</label>
                 <input type="text" name="rulechain" class="form-control" id="rulechain" value="<?php 
-                                            echo $_POST["rule"];
+                                            $rulerule = $_POST["rule"];
                                             echo $rulechain;
                                             ?>">
                 
@@ -92,7 +92,7 @@
                 
             </div>
             
-            <button type="submit" class="btn btn-primary">Agregar</button>
+            <button type="submit" class="btn btn-primary">Reemplazar</button>
         
        
         </form>
