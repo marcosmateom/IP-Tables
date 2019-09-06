@@ -1,6 +1,6 @@
 <?php
 
-$number = $_NUMBER["numerito"];
+$numerito = $_POST["numerito"];
 $chain = $_POST["rulechain"];
 $target = $_POST["target"];
 $ip = $_POST["ip"];
@@ -11,7 +11,7 @@ $protocol = $_POST["protocols"];
 $params2 = $_POST["params2"];
 
 
-$command = 'sudo iptables -R '.$chain." ".$number." ".$params." ".$protocol." ".$params2." ".$porttype." ".$ports." ".$ip." -j ".$target;
+$command = 'sudo iptables -R '.$chain." ".$numerito." ".$params." ".$protocol." ".$params2." ".$porttype." ".$ports." ".$ip." -j ".$target;
 echo $command;
 //$command = $command." -v -n";
         $output = shell_exec($command);
