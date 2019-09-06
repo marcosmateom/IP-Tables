@@ -33,6 +33,15 @@
             adminRules::getRules(3);
         ?>
         </pre>
+
+        <?php
+            $comando = $_POST["comando"];
+            if(isset($comando)){
+                echo "comando usado anteriormente: ".$comando;
+            }
+
+        ?>
+
     </div>
     
 </body>
