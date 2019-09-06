@@ -19,7 +19,7 @@
             <div class="form-group">
                 <label for="rulechain">RULE</label>
                 <input type="text" name="rulechain" class="form-control" id="rulechain" value="<?php 
-                                            $rulechain = $_POST["rule"];
+                                            echo $_POST["rule"];
                                             echo $rulechain;
                                             ?>">
                 
