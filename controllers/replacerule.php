@@ -1,6 +1,6 @@
 <?php
 
-$number = $_NUMBER["number"];
+$number = $_NUMBER["numerito"];
 $chain = $_POST["rulechain"];
 $target = $_POST["target"];
 $ip = $_POST["ip"];
@@ -17,7 +17,7 @@ echo $command;
         $output = shell_exec($command);
         echo $output;
 
-        echo $command;
+        //echo $command;
         echo '<br><a class="btn btn-primary" href="http://ec2-52-53-235-198.us-west-1.compute.amazonaws.com/" role="button">Home</a>';
 
 /*

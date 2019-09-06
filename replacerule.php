@@ -26,8 +26,8 @@
             </div>
 
             <div class="form-group">
-                <label for="number">NUMERO DE REGLA</label>
-                <input type="number" name="number" class="form-control" id="number" placeholder="Numero de regla">
+                <label for="numerito">NUMERO DE REGLA</label>
+                <input type="number" name="numerito" class="form-control" id="numerito" placeholder="Numero de regla">
                 
             </div>
 
