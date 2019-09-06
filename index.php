@@ -13,6 +13,7 @@
         <h1>Menu principal</h1>
         <hr>
         <a class="btn btn-primary" href="newrule.php" role="button">Nueva Regla</a>
+        <a class="btn btn-primary" href="deleterute.php" role="button">Eliminar Regla</a>
         <a class='btn btn-primary' href='print.php'>link a pruebas de impresion</a>
         <h2>Input </h2>
         <pre>
