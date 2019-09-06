@@ -16,9 +16,9 @@
         
         <form action="controllers/replacerule.php" method="POST">
             <?php 
-                if(isset($_POST["rule"])){
+                
                     $rulechain = $_POST["rule"];
-                }
+                
             ?>
             <div class="form-group">
                 <label for="rulechain">RULE</label>
