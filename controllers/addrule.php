@@ -17,17 +17,7 @@ echo $command;
         echo $output;
         echo '<a class="btn btn-primary" href="http://ec2-52-53-235-198.us-west-1.compute.amazonaws.com/" role="button">Home</a>';
 
-<<<<<<< HEAD
 
         header("Location: http://ec2-52-53-235-198.us-west-1.compute.amazonaws.com?comando=".$command);
         die();
 ?>
-=======
-/*
-        header("Location: http://ec2-52-53-235-198.us-west-1.compute.amazonaws.com/");
-        die();*/
-
-?>
-<br>
-<a href='/'>Home</a>
->>>>>>> da2406eefca01cac2c8f7725742a7362f2792c74
