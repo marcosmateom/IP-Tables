@@ -52,6 +52,7 @@
                 <option value=""></option>
                 <option value="tcp">TCP</option>
                 <option value="udp">UDP</option>
+                <option value="icmp">ICMP</option>
             </select>
             </div>
 
